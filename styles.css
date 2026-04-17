@@ -139,10 +139,10 @@ a:hover {
 }
 
 .hero__intro-row {
-  display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
+  display: flex;
   gap: 24px;
   align-items: start;
+  flex-wrap: nowrap;
 }
 
 .focus-box {
@@ -175,6 +175,12 @@ a:hover {
 .hero__visual {
   display: block;
   width: 220px;
+  flex: 0 0 220px;
+}
+
+.hero__body {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .hero__visual img {
@@ -522,11 +528,13 @@ a:hover {
   }
 
   .hero__intro-row {
-    grid-template-columns: 1fr;
+    display: block;
   }
 
   .hero__visual {
     width: 100%;
+    max-width: 220px;
+    margin-bottom: 16px;
   }
 
   .work-card {
