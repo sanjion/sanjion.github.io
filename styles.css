@@ -139,10 +139,7 @@ a:hover {
 }
 
 .hero__intro-row {
-  display: flex;
-  gap: 24px;
-  align-items: start;
-  flex-wrap: nowrap;
+  display: flow-root;
 }
 
 .focus-box {
@@ -175,12 +172,12 @@ a:hover {
 .hero__visual {
   display: block;
   width: 220px;
-  flex: 0 0 220px;
 }
 
-.hero__body {
-  flex: 1 1 auto;
-  min-width: 0;
+.hero__visual--intro {
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 8px;
 }
 
 .hero__visual img {
@@ -535,6 +532,11 @@ a:hover {
     width: 100%;
     max-width: 220px;
     margin-bottom: 16px;
+  }
+
+  .hero__visual--intro {
+    float: none;
+    margin-right: 0;
   }
 
   .work-card {

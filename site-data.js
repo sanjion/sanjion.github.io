@@ -1,9 +1,9 @@
-// 直接修改这个文件里的内容，就可以把模板替换成你自己的主页信息。
+// Edit this file to update the homepage content.
 const siteData = {
   profile: {
     eyebrow: "",
     name: "Rongxin Gao",
-    localName: "高荣鑫",
+    localName: "\u9ad8\u8363\u946b",
     photo: "assets/image.jpg",
     intro: [
       "I am pursuing my master's degree in <a href=\"https://iai.xmu.edu.cn/\" target=\"_blank\" rel=\"noreferrer noopener\">Institute of Artificial Intelligence</a> at <a href=\"https://www.xmu.edu.cn/\" target=\"_blank\" rel=\"noreferrer noopener\">Xiamen University</a>, advised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=zh-CN\" target=\"_blank\" rel=\"noreferrer noopener\">Prof. Xinghao Ding</a> and <a href=\"https://huangyue05.github.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Prof. Yue Huang</a>. My long-term research goal is to develop embodied agents that are fundamentally grounded in the dynamic physical world, progressing from 4D scene modeling and multimodal dynamic reasoning toward agents capable of robust planning and action in open-ended, long-horizon real-world environments.",
