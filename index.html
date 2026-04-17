@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Homepage Template</title>
+    <meta
+      name="description"
+      content="A customizable academic homepage template inspired by the referenced personal website."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Ma+Shan+Zheng&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="site-data.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="page">
+        <section class="hero">
+          <div class="hero__copy">
+            <p class="eyebrow" id="eyebrow"></p>
+            <div class="hero__heading">
+              <h1 class="hero__name" id="display-name"></h1>
+              <span class="hero__divider" aria-hidden="true">|</span>
+              <p class="hero__local-name" id="local-name"></p>
+            </div>
+            <div class="hero__body" id="intro-paragraphs"></div>
+            <div class="focus-box">
+              <p class="focus-box__title">Research Focus</p>
+              <ul class="focus-box__list" id="focus-areas"></ul>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <img id="profile-photo" alt="profile photo" />
+            <div class="hero__meta">
+              <p class="hero__contact" id="contact-line"></p>
+              <div class="link-row" id="profile-links"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h2 id="works-title"></h2>
+            <p id="works-note"></p>
+          </div>
+          <div class="work-list" id="work-list"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h2 id="experience-title"></h2>
+          </div>
+          <ul class="bullet-list" id="experience-list"></ul>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h2 id="interests-title"></h2>
+          </div>
+          <div class="interest-grid" id="interest-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button
+        class="lightbox__close"
+        id="lightbox-close"
+        type="button"
+        aria-label="Close image preview"
+      >
+        X
+      </button>
+      <img class="lightbox__image" id="lightbox-image" alt="Expanded work preview" />
+    </div>
+  </body>
+</html>
