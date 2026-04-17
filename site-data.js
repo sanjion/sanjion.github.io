@@ -1,7 +1,7 @@
 // 直接修改这个文件里的内容，就可以把模板替换成你自己的主页信息。
 const siteData = {
   profile: {
-    eyebrow: "Academic Homepage",
+    eyebrow: "",
     name: "Rongxin Gao",
     localName: "高荣鑫",
     photo: "assets/image.jpg",
@@ -67,7 +67,7 @@ const siteData = {
     },
   ],
   experiences: [
-    "<strong>Shanghai Artificial Intelligence Laboratory</strong>: Large Language Model Fine-Tuning, AI Agent;",
+    "<a href=\"https://www.shlab.org.cn/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Shanghai Artificial Intelligence Laboratory</strong></a>: Large Language Model Fine-Tuning, AI Agent;",
   ],
   interests: [
     {
