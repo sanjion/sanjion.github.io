@@ -171,7 +171,7 @@ a:hover {
 
 .hero__visual {
   display: block;
-  width: 220px;
+  width: 180px;
 }
 
 .hero__visual--intro {
@@ -182,10 +182,14 @@ a:hover {
 
 .hero__visual img {
   width: 100%;
-  max-width: 220px;
-  height: 280px;
+  max-width: 180px;
+  height: 230px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.hero__intro-copy {
+  overflow: hidden;
 }
 
 .hero__contact {
@@ -201,7 +205,7 @@ a:hover {
 
 .hero__meta {
   width: 100%;
-  margin-top: 18px;
+  margin-top: 8px;
 }
 
 .link-chip {
@@ -530,7 +534,7 @@ a:hover {
 
   .hero__visual {
     width: 100%;
-    max-width: 220px;
+    max-width: 180px;
     margin-bottom: 16px;
   }
 
