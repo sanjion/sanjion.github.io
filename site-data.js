@@ -9,8 +9,8 @@ const siteData = {
       "I am pursuing my master's degree in <a href=\"https://iai.xmu.edu.cn/\" target=\"_blank\" rel=\"noreferrer noopener\">Institute of Artificial Intelligence</a> at <a href=\"https://www.xmu.edu.cn/\" target=\"_blank\" rel=\"noreferrer noopener\">Xiamen University</a>, advised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=zh-CN\" target=\"_blank\" rel=\"noreferrer noopener\">Prof. Xinghao Ding</a> and <a href=\"https://huangyue05.github.io/\" target=\"_blank\" rel=\"noreferrer noopener\">Prof. Yue Huang</a>. My long-term research goal is to develop embodied agents that are fundamentally grounded in the dynamic physical world, progressing from 4D scene modeling and multimodal dynamic reasoning toward agents capable of robust planning and action in open-ended, long-horizon real-world environments.",
     ],
     focusAreas: [
-      "<strong>4D World Modeling &amp; Perception:</strong> Dynamic scene reconstruction, spatio-temporal understanding, streaming vision for embodied 4D perception.",
-      "<strong>Multimodal LLM Evaluation &amp; Adaptation:</strong> Benchmarking MLLMs on dynamic reasoning, task-specific fine-tuning for spatial and temporal understanding.",
+      "<strong>4D World Modeling &amp; Perception:</strong> Real-time dynamic scene reconstruction and spatio-temporal learning for embodied 4D perception.",
+      "<strong>MLLMs Evaluation &amp; Adaptation:</strong> Developed benchmarks and adaptation strategies for enhancing MLLMs in spatial-temporal reasoning.",
     ],
     contactLine:
       "Email: rongxingao38@gmail.com | WeChat: sanjion9 | Location: Xiamen, China",
