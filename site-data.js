@@ -16,7 +16,7 @@ const siteData = {
       "Email: rongxingao38@gmail.com | WeChat: sanjion9 | Location: Xiamen, China",
     links: [
       { label: "Email", url: "mailto:rongxingao38@gmail.com" },
-      { label: "Google Scholar", url: "https://scholar.google.com/" },
+      { label: "Google Scholar", url: "https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=sPmeAIYAAAAJ" },
       { label: "GitHub", url: "https://github.com/sanjion" },
     ],
   },
@@ -29,18 +29,18 @@ const siteData = {
   works: [
     {
       title: "DynTrace: Tracking Dynamic Object Evidence for 4D Spatio-Temporal Reasoning in MLLMs",
-      titleUrl: "https://sanjion.github.io/DynTrace/",
+      titleUrl: "https://dyntrace.github.io/",
       authors:
         "Rongxin Gao, Yuzhi Huang, Dongxuan Liu, Chu Li, Zhenye Wang, Jie Wu, Shuzhao Xie, Jingyan Jiang, Xinghao Ding, Xiaotong Tu, Yue Huang",
       authorsHtml:
         "<u>Rongxin Gao</u><sup>*</sup>, Yuzhi Huang<sup>*\u2020</sup>, Dongxuan Liu<sup>*</sup>, Chu Li, Zhenye Wang, Jie Wu, Shuzhao Xie, Jingyan Jiang, Xinghao Ding, Xiaotong Tu, Yue Huang",
-      venue: "Manuscript, 2026",
+      venue: "ACM MM 2026",
       description:
         "A training-free framework for 4D spatio-temporal reasoning that supplies MLLMs with continuously tracked dynamic object evidence through Dynamic Trajectory Visualization and a Dynamic Trace Graph.",
       image: "assets/works/dyntrace.png",
       imageLabel: "DynTrace",
       links: [
-        { label: "Project", url: "https://sanjion.github.io/DynTrace/" },
+        { label: "Project", url: "https://dyntrace.github.io" },
         { label: "Paper", url: "#" },
         { label: "Code", url: "#" },
       ],
@@ -53,7 +53,7 @@ const siteData = {
         "Yuzhi Huang, Kairun Wen, Rongxin Gao, Dongxuan Liu, Yibin Lou, Jie Wu, Jing Xu, Jian Zhang, Zheng Yang, Yunlong Lin, Chenxin Li, Panwang Pan, Junbin Lu, Jingyan Jiang, Xinghao Ding, Yue Huang, Zhi Wang",
       authorsHtml:
         "Yuzhi Huang<sup>*\u2020</sup>, Kairun Wen<sup>*</sup>, <u>Rongxin Gao</u><sup>*</sup>, Dongxuan Liu, Yibin Lou, Jie Wu, Jing Xu, Jian Zhang, Zheng Yang, Yunlong Lin, Chenxin Li, Panwang Pan, Junbin Lu, Jingyan Jiang, Xinghao Ding, Yue Huang, Zhi Wang",
-      venue: "CVPR 2026",
+      venue: "CVPR 2026 Oral",
       description:
         "A large-scale benchmark and analysis framework for evaluating how MLLMs perceive, track, and reason about dynamic content in the physical 4D world, covering object motion, evolving scenes, and camera-object interactions.",
       image: "assets/works/dynbench.png",
