@@ -41,8 +41,8 @@ const siteData = {
       imageLabel: "DynTrace",
       links: [
         { label: "Project", url: "https://dyntrace.github.io" },
-        { label: "Paper", url: "#" },
-        { label: "Code", url: "#" },
+        { label: "Paper", url: "https://arxiv.org/abs/2607.12503" },
+        { label: "Code", url: "https://github.com/sanjion/DynTrace" },
       ],
     },
     {
