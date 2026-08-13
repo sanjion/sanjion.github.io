@@ -34,7 +34,7 @@ const siteData = {
       authors:
         "Kepeng Yang, Dongxuan Liu, Rongxin Gao, Zixin Su, Rui Wu, Shuzhao Xie, Chenxin Li, Panwang Pan, Yuzhi Huang, Yue Huang, Jingyan Jiang",
       authorsHtml:
-        "Kepeng Yang<sup>*</sup>, Dongxuan Liu<sup>*</sup>, <u>Rongxin Gao</u><sup>*</sup>, Zixin Su, Rui Wu, Shuzhao Xie, Chenxin Li, Panwang Pan, Yuzhi Huang<sup>&dagger;</sup>, Yue Huang<sup>&dagger;</sup>, Jingyan Jiang",
+        "Kepeng Yang<sup>*</sup>, Dongxuan Liu<sup>*</sup>, <u>Rongxin Gao</u><sup>*</sup>, Zixin Su, Rui Wu, Shuzhao Xie, Chenxin Li, Panwang Pan, Yuzhi Huang, Yue Huang, Jingyan Jiang",
       venue: "arXiv 2026",
       description:
         "A track-centric benchmark that jointly evaluates anomaly instance tracking and fine-grained video anomaly understanding through identity-consistent tracks, pixel-level masks, and hierarchical annotations.",
