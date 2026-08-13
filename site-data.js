@@ -28,6 +28,25 @@ const siteData = {
   },
   works: [
     {
+      title:
+        "TAU-Bench: From Anomaly Instance Tracking to Fine-Grained Video Anomaly Understanding",
+      titleUrl: "https://yarkupa.github.io/tau-bench.github.io/",
+      authors:
+        "Kepeng Yang, Dongxuan Liu, Rongxin Gao, Zixin Su, Rui Wu, Shuzhao Xie, Chenxin Li, Panwang Pan, Yuzhi Huang, Yue Huang, Jingyan Jiang",
+      authorsHtml:
+        "Kepeng Yang<sup>*</sup>, Dongxuan Liu<sup>*</sup>, <u>Rongxin Gao</u><sup>*</sup>, Zixin Su, Rui Wu, Shuzhao Xie, Chenxin Li, Panwang Pan, Yuzhi Huang<sup>&dagger;</sup>, Yue Huang<sup>&dagger;</sup>, Jingyan Jiang",
+      venue: "arXiv 2026",
+      description:
+        "A track-centric benchmark that jointly evaluates anomaly instance tracking and fine-grained video anomaly understanding through identity-consistent tracks, pixel-level masks, and hierarchical annotations.",
+      image: "assets/works/tau-bench.png",
+      imageLabel: "TAU-Bench",
+      links: [
+        { label: "Project", url: "https://yarkupa.github.io/tau-bench.github.io/" },
+        { label: "Paper", url: "https://arxiv.org/abs/2608.05699" },
+        { label: "Code", url: "https://github.com/yarkupa/tau-bench.github.io" },
+      ],
+    },
+    {
       title: "DynTrace: Tracking Dynamic Object Evidence for 4D Spatio-Temporal Reasoning in MLLMs",
       titleUrl: "https://dyntrace.github.io/",
       authors:
