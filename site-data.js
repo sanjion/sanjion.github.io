@@ -22,11 +22,29 @@ const siteData = {
   },
   sections: {
     worksTitle: "Selected Work",
-    worksNote: "*Equal contribution, \u2020 Project Leader",
+    worksNote: "*Equal contribution, \u2020 Project Leader, \u2021 Corresponding Author",
     experienceTitle: "Selected Experience",
     interestsTitle: "Beyond Work",
   },
   works: [
+    {
+      title:
+        "Pros4D: Modeling Evolving 4D Worlds in Latent Space for Dynamic Spatial Reasoning",
+      titleUrl: "https://pros4d.github.io/",
+      authors:
+        "Rongxin Gao, Dongyuan Liu, Chu Li, Chengyang Ji, Jialing Huang, Runyu Chen, Kairun Wen, Chenxin Li, Jingrui Ye, Haosong Zhen, Xinghao Ding, Yue Huang, Yuzhi Huang, Xiaodong Tu, Jingyan Jiang",
+      authorsHtml:
+        "<u>Rongxin Gao</u><sup>\u2020</sup>, Dongyuan Liu, Chu Li, Chengyang Ji, Jialing Huang, Runyu Chen, Kairun Wen, Chenxin Li, Jingrui Ye, Haosong Zhen, Xinghao Ding<sup>\u2021</sup>, Yue Huang, Yuzhi Huang<sup>\u2021</sup>, Xiaodong Tu, Jingyan Jiang",
+      venue: "Manuscript 2026",
+      description:
+        "A geometry-grounded latent reasoning framework that unifies observed-dynamics understanding and future-dynamics prediction from monocular video, together with Pros4D-Engine for paired supervision and Pros4D-Bench for evaluation across eight spatial task categories.",
+      image: "assets/works/pros4d.webp",
+      imageLabel: "Pros4D",
+      links: [
+        { label: "Project", url: "https://pros4d.github.io/" },
+        { label: "BibTeX", url: "https://pros4d.github.io/downloads/pros4d.bib" },
+      ],
+    },
     {
       title:
         "TAU-Bench: From Anomaly Instance Tracking to Fine-Grained Video Anomaly Understanding",
